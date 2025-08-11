@@ -73,43 +73,7 @@ export const HowItWorks = () => {
           </div>
         </div>
 
-        {/* Additional Info */}
-        <div className="mt-16 bg-warm rounded-2xl p-8 md:p-12">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <h3 className="text-2xl md:text-3xl font-bold text-secondary mb-4">
-                Why Choose EarlyJobs Visakhapatnam?
-              </h3>
-              <ul className="space-y-3 text-muted-foreground">
-                <li className="flex items-center gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span><strong>Local Expertise:</strong> Deep understanding of Vizag's job market</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span><strong>Verified Opportunities:</strong> All jobs and companies are thoroughly vetted</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span><strong>Continuous Support:</strong> From registration to placement and beyond</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span><strong>Skills Development:</strong> Regular workshops and certification programs</span>
-                </li>
-              </ul>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-white rounded-xl p-6 shadow-card">
-                <div className="text-4xl font-bold text-primary mb-2">3-7 Days</div>
-                <p className="text-muted-foreground mb-4">Average time from registration to first interview</p>
-                <div className="text-3xl font-bold text-secondary mb-2">85%</div>
-                <p className="text-muted-foreground">Placement success rate for active candidates</p>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );

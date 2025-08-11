@@ -25,26 +25,7 @@ export const EventsSection = () => {
       description: "Exclusive recruitment drive for GITAM students across all streams with focus on fresher-friendly roles.",
       category: "Campus Drive"
     },
-    {
-      title: "Skill Development Workshop",
-      date: "December 22, 2024",
-      time: "2:00 PM - 6:00 PM",
-      location: "EarlyJobs Vizag Office, Dwaraka Nagar",
-      companies: "Industry Experts",
-      positions: "Free Workshop",
-      description: "Learn in-demand skills like Digital Marketing, Data Analysis, and Communication Skills from industry experts.",
-      category: "Workshop"
-    },
-    {
-      title: "Walk-in Interview - IT Companies",
-      date: "December 28, 2024",
-      time: "10:30 AM - 3:00 PM",
-      location: "HITEC City, Madhurawada",
-      companies: "8+ IT Companies",
-      positions: "50+ Positions",
-      description: "Direct walk-in interviews for software developers, testers, and support roles. No prior registration required.",
-      category: "Walk-in"
-    }
+    
   ];
 
   const getCategoryColor = (category: string) => {
