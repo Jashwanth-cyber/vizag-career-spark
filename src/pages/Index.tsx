@@ -1,12 +1,12 @@
-import { HeroSection } from "@/components/ui/hero-section";
-import { AboutSection } from "@/components/ui/about-section";
-import { BenefitsSection } from "@/components/ui/benefits-section";
-import { HowItWorks } from "@/components/ui/how-it-works";
-import { Testimonials } from "@/components/ui/testimonials";
-import { EventsSection } from "@/components/ui/events-section";
-import { FAQSection } from "@/components/ui/faq-section";
-import { RegistrationForm } from "@/components/ui/registration-form";
-import { Footer } from "@/components/ui/footer";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { AboutSection } from "@/components/sections/AboutSection";
+import { BenefitsSection } from "@/components/sections/BenefitsSection";
+import { HowItWorks } from "@/components/sections/HowItWorks";
+import { Testimonials } from "@/components/sections/Testimonials";
+import { EventsSection } from "@/components/sections/EventsSection";
+import { FAQSection } from "@/components/sections/FAQSection";
+import { RegistrationForm } from "@/components/sections/RegistrationForm";
+import { Footer } from "@/components/sections/Footer";
 
 const Index = () => {
   return (
