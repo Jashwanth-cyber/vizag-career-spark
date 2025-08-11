@@ -40,7 +40,7 @@ export const HeroSection = () => {
             
             
             <div className="text-center">
-              <p className="text-lg  md:text-xl   ">
+              <p className="text-lg  md:text-xl ">
                 Connecting Vizag's brightest talent with top employers across IT-SEZ,
                 Port Industries, Hospitality & Education sectors. Build skills, find opportunities,
                 and grow your <em>udyogam</em> (career) with EarlyJobs Visakhapatnam.
@@ -48,9 +48,11 @@ export const HeroSection = () => {
             </div>
             
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-white text-primary hover:bg-primary-light hover:text-white shadow-warm transition-spring text-lg px-8 py-6">
-                Register Now - Free
+            <div className="flex flex-col sm:flex-row justify-center gap-4">
+              <Button size="lg" className="bg-orange-800 text-white hover:bg-white hover:text-orange-600 shadow-warm transition-spring text-lg px-8 py-6"
+                onClick={() => document.getElementById('register')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Register Now
               </Button>
               <Button 
                 size="lg" 
