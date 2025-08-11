@@ -115,11 +115,19 @@ export const BenefitsSection = () => {
               Your dream career is just a registration away.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+
+             
               <button 
                 className="bg-primary text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-glow transition-spring shadow-soft"
+              
+                
                 onClick={() => document.getElementById('register')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Register for Free
+                Register Now
+
+
+             
               </button>
               <button className="bg-secondary text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-secondary/90 transition-spring shadow-soft">
                 Schedule a Callback

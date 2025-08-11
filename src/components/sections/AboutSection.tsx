@@ -49,45 +49,7 @@ export const AboutSection = () => {
           </Card>
         </div>
 
-        {/* Industry Focus */}
-        <div className="bg-warm rounded-2xl p-8 md:p-12">
-          <h3 className="text-2xl md:text-3xl font-bold text-secondary mb-8 text-center">
-            Industries We Serve in Vizag
-          </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary rounded-xl flex items-center justify-center mx-auto mb-4">
-                <Building2 className="w-8 h-8 text-white" />
-              </div>
-              <h4 className="font-semibold text-secondary mb-2">IT & Software</h4>
-              <p className="text-sm text-muted-foreground">HITEC City, Software Companies, Startups</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-16 h-16 bg-secondary rounded-xl flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-white" />
-              </div>
-              <h4 className="font-semibold text-secondary mb-2">Port & Maritime</h4>
-              <p className="text-sm text-muted-foreground">Visakhapatnam Port, Shipping, Logistics</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary rounded-xl flex items-center justify-center mx-auto mb-4">
-                <Award className="w-8 h-8 text-white" />
-              </div>
-              <h4 className="font-semibold text-secondary mb-2">Hospitality</h4>
-              <p className="text-sm text-muted-foreground">Hotels, Tourism, Beach Resorts</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-16 h-16 bg-secondary rounded-xl flex items-center justify-center mx-auto mb-4">
-                <MapPin className="w-8 h-8 text-white" />
-              </div>
-              <h4 className="font-semibold text-secondary mb-2">Education</h4>
-              <p className="text-sm text-muted-foreground">Universities, Training Centers, EdTech</p>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

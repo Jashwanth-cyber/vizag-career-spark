@@ -5,7 +5,7 @@ import heroImage from "@/assets/vizag-hero.jpg";
 
 export const HeroSection = () => {
   return (
-    <section className="relative min-h-screen bg-gradient-hero overflow-hidden">
+    <section className="relative min-h-screen  overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img 
@@ -13,13 +13,13 @@ export const HeroSection = () => {
           alt="Visakhapatnam skyline with students and professionals"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/60 to-secondary/70"></div>
+        <div className="absolute inset-0 bg-secondary/70"></div>
       </div>
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20 md:py-32">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Column - Main Content */}
+        <div className="text-center">
+          
           <div className="text-white space-y-8">
             {/* Location Badge */}
             <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 text-sm font-medium">
@@ -28,8 +28,8 @@ export const HeroSection = () => {
             </div>
             
             {/* Main Headline */}
-            <div className="space-y-4">
-              <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+            <div className="space-y-4 ">
+              <h1 className="text-4xl md:text-6xl font-bold">
                 Empowering Visakhapatnam's
                 <span className="block text-primary-light">Youth & Vidya</span>
               </h1>
@@ -38,26 +38,29 @@ export const HeroSection = () => {
               </p>
             </div>
             
-            {/* Subheadline */}
-            <p className="text-lg md:text-xl opacity-80 max-w-2xl leading-relaxed">
-              Connecting Vizag's brightest talent with top employers across IT-SEZ, 
-              Port Industries, Hospitality & Education sectors. Build skills, find opportunities, 
-              and grow your <em>udyogam</em> (career) with EarlyJobs Visakhapatnam.
-            </p>
+            
+            <div className="text-center">
+              <p className="text-lg  md:text-xl ">
+                Connecting Vizag's brightest talent with top employers across IT-SEZ,
+                Port Industries, Hospitality & Education sectors. Build skills, find opportunities,
+                and grow your <em>udyogam</em> (career) with EarlyJobs Visakhapatnam.
+              </p>
+            </div>
             
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                size="lg" 
-                className="bg-white text-primary hover:bg-primary-light hover:text-white shadow-warm transition-spring text-lg px-8 py-6"
+
+            <div className="flex flex-col sm:flex-row justify-center gap-4">
+              <Button size="lg" className="bg-orange-800 text-white hover:bg-white hover:text-orange-600 shadow-warm transition-spring text-lg px-8 py-6"
                 onClick={() => document.getElementById('register')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Register Now - Free
+                Register Now
+
+           
               </Button>
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-primary transition-spring text-lg px-8 py-6"
+                className=" text-orange-600 bg-white hover:bg-orange-800 hover:text-white border-0 transition-spring text-lg px-8 py-6"
               >
                 <Phone className="w-5 h-5 mr-2" />
                 Call Us Today
@@ -65,7 +68,7 @@ export const HeroSection = () => {
             </div>
             
             {/* Quick Stats */}
-            <div className="flex flex-wrap gap-6 pt-4">
+            <div className="flex flex-wrap gap-6 pt-4 justify-center text-white">
               <div className="flex items-center gap-2">
                 <Star className="w-5 h-5 text-yellow-400 fill-current" />
                 <span className="text-sm">500+ Vizag Placements</span>
@@ -82,7 +85,7 @@ export const HeroSection = () => {
           </div>
           
           {/* Right Column - Quick Registration Card */}
-          <div className="lg:block hidden">
+          {/* <div className="lg:block hidden">
             <Card className="p-8 bg-white/95 backdrop-blur-sm shadow-warm border-0">
               <div className="space-y-6">
                 <div className="text-center">
@@ -132,17 +135,13 @@ export const HeroSection = () => {
                 </p>
               </div>
             </Card>
-          </div>
+          </div> */}
         </div>
       </div>
       
       {/* Floating Elements */}
-      <div className="absolute bottom-10 left-10 animate-float">
-        <div className="w-20 h-20 bg-white/20 rounded-full backdrop-blur-sm"></div>
-      </div>
-      <div className="absolute top-20 right-20 animate-float" style={{ animationDelay: '1s' }}>
-        <div className="w-16 h-16 bg-white/15 rounded-full backdrop-blur-sm"></div>
-      </div>
+      
+      
     </section>
   );
 };
