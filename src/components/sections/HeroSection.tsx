@@ -48,13 +48,10 @@ export const HeroSection = () => {
             </div>
             
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              
-                <Button size="lg" className="bg-orange-800 text-white hover:bg-white hover:text-orange-600 shadow-warm transition-spring text-lg px-8 py-6" 
-                        onClick={() => document.getElementById("register")?.scrollIntoView({ behavior: "smooth" })}>
-                  Register Now 
-                </Button>
-              
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button size="lg" className="bg-white text-primary hover:bg-primary-light hover:text-white shadow-warm transition-spring text-lg px-8 py-6">
+                Register Now - Free
+              </Button>
               <Button 
                 size="lg" 
                 variant="outline" 
